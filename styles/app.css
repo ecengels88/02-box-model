@@ -23,7 +23,7 @@ ul {
 }
 
 .grid {
-  background-color: magenta;
+  /*background-color: magenta;*/
   overflow: auto;
 }
 
