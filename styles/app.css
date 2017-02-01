@@ -23,14 +23,32 @@ ul {
 }
 
 .grid {
-  background-color: white;
+  background-color: magenta;
+  overflow: auto;
 }
 
 .grid--profile {
-  background-color: magenta;
+  background-color: white;
+  width: calc(100% / 3);
+  border: gray .1rem solid;
+  float; left;
+}
+
+.grid--profile__title {
+  overflow: auto;
+}
+
+.photo-left {
+  display: inline-block;
+  float: left;
+}
+
+.name-right {
+  display: inline-block;
+  float: right;
 }
 
 .goatpic {
   height: 8rem;
-  border-radius: 50%;
+  border-radius: 80%;
 }
