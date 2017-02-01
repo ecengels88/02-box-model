@@ -16,3 +16,21 @@ ul {
   background-color: teal;
   overflow: auto;
 }
+
+.blog {
+  height: 100vh;
+  background-color: green;
+}
+
+.grid {
+  background-color: white;
+}
+
+.grid--profile {
+  background-color: magenta;
+}
+
+.goatpic {
+  height: 8rem;
+  border-radius: 50%;
+}
