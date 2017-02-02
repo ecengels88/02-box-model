@@ -68,11 +68,13 @@ a {
   width: calc(100% / 3);
   border: gray .1rem solid;
   float; left;
+  overflow: auto;
 }
 
 .grid--profile__title {
   overflow: auto;
   padding: .5rem;
+  /*border: gray .1rem solid;*/
 }
 
 .photo-left {
@@ -102,4 +104,31 @@ a {
 .username {
   margin: 0;
   color: #707070
+}
+
+.grid--profile__content__top {
+  overflow: auto;
+  padding: 0 .5rem;
+  border-top: gray .1rem solid;
+  border-bottom: gray .1rem solid;
+}
+
+.grid--profile__content__bottom {
+  padding: 0 .5rem;
+}
+
+.content--left {
+  float: left;
+}
+
+.content--right {
+  float: right;
+}
+
+.circle {
+  display: inline-block;
+  height: .5rem;
+  width: .5rem;
+  background: maroon;
+  border-radius: 50%;
 }
