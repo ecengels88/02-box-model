@@ -12,9 +12,45 @@ ul {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .headline {
-  background-color: teal;
+  background-color: #1fadcc;
   overflow: auto;
+  padding: 0 4rem;
+}
+
+.container {
+  /*background: orange;*/
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+.top-nav {
+  overflow: auto;
+  color: white;
+}
+
+.headline--title {
+  float: left;
+  line-height: 3rem;
+  margin: 0;
+}
+
+.top-nav__right {
+  float: right;
+  line-height: 3rem;
+  margin: 0;
+}
+
+.top-nav__item {
+  /*background: white;*/
+  display: inline-block;
+  text-decoration: none;
+  /*color: #482e78;*/
 }
 
 .blog {
@@ -36,6 +72,7 @@ ul {
 
 .grid--profile__title {
   overflow: auto;
+  padding: .5rem;
 }
 
 .photo-left {
@@ -45,10 +82,24 @@ ul {
 
 .name-right {
   display: inline-block;
-  float: right;
+  float: left;
+  margin: 0 .5rem;
+  padding: 0;
 }
 
 .goatpic {
   height: 8rem;
-  border-radius: 80%;
+  border-radius: 0.4rem;
+}
+
+.name {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #303030;
+}
+
+.username {
+  margin: 0;
+  color: #707070
 }
