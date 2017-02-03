@@ -139,6 +139,25 @@ a {
   display: inline-block;
   height: .5rem;
   width: .5rem;
-  background: maroon;
   border-radius: 50%;
+}
+
+.circle_maroon {
+  background: maroon;
+}
+
+.circle_orange {
+  background: orange;
+}
+
+.circle_gray {
+  background: gray;
+}
+
+.circle_blue {
+  background: blue;
+}
+
+.circle_light-blue {
+  background: #1bd4fc;
 }
