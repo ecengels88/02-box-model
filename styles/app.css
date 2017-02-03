@@ -1,9 +1,163 @@
 body {
   margin: 0;
   font-family: sans-serif;
+  /*background: maroon;*/
 }
 
 ul {
   padding-left: 0;
   list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.headline {
+  background-color: #1fadcc;
+  overflow: auto;
+  padding: 0 2rem;
+}
+
+.container {
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+.top-nav {
+  overflow: auto;
+  color: white;
+}
+
+.headline--title {
+  float: left;
+  line-height: 3rem;
+  margin: 0;
+}
+
+.top-nav__right {
+  float: right;
+  line-height: 3rem;
+  margin: 0;
+}
+
+.top-nav__item {
+  display: inline-block;
+  text-decoration: none;
+  padding-left: 1.5rem;
+}
+
+.blog {
+  height: 100vh;
+}
+
+.wrapper {
+  padding: 2rem;
+}
+
+.grid {
+  overflow: auto;
+  margin: -1rem;
+  /*max-width: 65rem;*/
+}
+
+.grid--profile {
+  border-radius: .2rem;
+  display: inline-block;
+  background-color: white;
+  width: calc(100% / 3 - 1rem - 1rem);
+  border: #b1b1b1 .1rem solid;
+  float: left;
+  overflow: auto;
+  margin: 1rem;
+}
+
+.grid--profile__title {
+  overflow: auto;
+  padding: .5rem;
+}
+
+.photo-left {
+  display: inline-block;
+  float: left;
+}
+
+.name-right {
+  display: inline-block;
+  float: left;
+  margin: 0 .5rem;
+  padding: 0;
+}
+
+.goatpic {
+  height: 8rem;
+  border-radius: 0.4rem;
+}
+
+.name {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #303030;
+}
+
+.username {
+  margin: 0;
+  color: #707070
+}
+
+.grid--profile__content {
+  font-size: .8rem;
+}
+
+.grid--profile__content__top {
+  overflow: auto;
+  padding: 0 .5rem;
+  border-top: #b1b1b1 .1rem solid;
+  border-bottom: #b1b1b1 .1rem solid;
+}
+
+.grid--profile__content__bottom {
+  padding: 0 .5rem;
+}
+
+.content--left {
+  float: left;
+}
+
+.content--right {
+  float: right;
+  display: inline-block;
+}
+
+.circle {
+  display: inline-block;
+  height: .5rem;
+  width: .5rem;
+  border-radius: 50%;
+}
+
+.circle_maroon {
+  background: maroon;
+}
+
+.circle_orange {
+  background: orange;
+}
+
+.circle_gray {
+  background: gray;
+}
+
+.circle_blue {
+  background: blue;
+}
+
+.circle_light-blue {
+  background: #1bd4fc;
 }
