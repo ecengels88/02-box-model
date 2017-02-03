@@ -21,7 +21,7 @@ a {
 .headline {
   background-color: #1fadcc;
   overflow: auto;
-  padding: 0 4rem;
+  padding: 0 2rem;
 }
 
 .container {
@@ -49,16 +49,20 @@ a {
 .top-nav__item {
   display: inline-block;
   text-decoration: none;
+  padding-left: 1.5rem;
 }
 
 .blog {
   height: 100vh;
-  /*background-color: green;*/
+}
+
+.wrapper {
+  padding: 2rem;
 }
 
 .grid {
   overflow: auto;
-  background: blue;
+  margin: -1rem;
   /*max-width: 65rem;*/
 }
 
@@ -66,10 +70,11 @@ a {
   border-radius: .2rem;
   display: inline-block;
   background-color: white;
-  width: calc(100% / 3);
+  width: calc(100% / 3 - 1rem - 1rem);
   border: #b1b1b1 .1rem solid;
-  float; left;
+  float: left;
   overflow: auto;
+  margin: 1rem;
 }
 
 .grid--profile__title {
@@ -96,7 +101,7 @@ a {
 
 .name {
   margin: 0;
-  font-size: 1.4rem;
+  font-size: 1.25rem;
   font-weight: 400;
   color: #303030;
 }
@@ -104,6 +109,10 @@ a {
 .username {
   margin: 0;
   color: #707070
+}
+
+.grid--profile__content {
+  font-size: .8rem;
 }
 
 .grid--profile__content__top {
